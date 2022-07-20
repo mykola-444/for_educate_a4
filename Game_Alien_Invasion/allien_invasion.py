@@ -9,6 +9,7 @@ from alien import Alien
 
 class AlienInvasion:
     """ Main class which manage the game"""
+    """ https://github.com/ehmatthes/pcc_2e """
 
     def __init__(self):
         pygame.init()
