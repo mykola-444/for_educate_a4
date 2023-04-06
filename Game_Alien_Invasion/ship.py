@@ -12,7 +12,7 @@ class Ship:
         self.rect = self.image.get_rect()
         self.x = float(self.rect.x)                       # float value for ship with speed 1.5)
 
-        self.rect.bottom = self.screen_rect.bottom
+        self.rect.midbottom = self.screen_rect.midbottom
         self.moving_right = False  # motion indicator
         self.moving_left = False
 
