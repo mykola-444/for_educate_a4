@@ -1,0 +1,16 @@
+2021-04-06 00:33:32,931 root INFO Dividing 5 between 0
+2021-04-06 00:33:32,933 root ERROR Error running task
+Traceback (most recent call last):
+  File "C:/Users/Avalon/PycharmProjects/cookbook/Python Automation Cookbook/Chapter02/task_with_error_handling_step4.py", line 33, in <module>
+    main(args.n1, args.n2, args.output)
+  File "C:/Users/Avalon/PycharmProjects/cookbook/Python Automation Cookbook/Chapter02/task_with_error_handling_step4.py", line 11, in main
+    result = number / other_number
+ZeroDivisionError: division by zero
+2021-04-06 00:35:20,318 root INFO Dividing 5 between 0
+2021-04-06 00:35:20,319 root ERROR Error running task
+Traceback (most recent call last):
+  File "C:/Users/Avalon/PycharmProjects/cookbook/Python Automation Cookbook/Chapter02/task_with_error_handling_step4.py", line 33, in <module>
+    main(args.n1, args.n2, args.output)
+  File "C:/Users/Avalon/PycharmProjects/cookbook/Python Automation Cookbook/Chapter02/task_with_error_handling_step4.py", line 11, in main
+    result = number / other_number
+ZeroDivisionError: division by zero
